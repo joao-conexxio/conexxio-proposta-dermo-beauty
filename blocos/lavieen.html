@@ -1,0 +1,31 @@
+<section class="blk-lv" id="lavieen">
+  <div class="wrap blk-lv__grade">
+    <div class="blk-lv__cab" data-reveal>
+      <p class="blk-lv__eyebrow"><!--icone:laser--> Na agenda da casa</p>
+      <h2 class="blk-lv__titulo">Lavieen Day</h2>
+      <p class="blk-lv__lead" data-acende>De tempos em tempos a Dermo Beauty separa um dia da agenda só para o laser Lavieen. A data sai no Instagram @dermo_beauty e a vaga é reservada pelo WhatsApp.</p>
+      <p class="blk-lv__nota">Pele sem manchas, poros reduzidos, pele revitalizada.</p>
+    </div>
+    <ol class="blk-lv__cartoes">
+      <li data-reveal style="--d:0ms"><span class="blk-lv__n">01</span><h3>Manchas</h3><p>Para uniformizar o tom da pele do rosto.</p></li>
+      <li data-reveal style="--d:100ms"><span class="blk-lv__n">02</span><h3>Poros</h3><p>Textura mais fina na testa, no nariz e nas bochechas, onde o poro aparece primeiro.</p></li>
+      <li data-reveal style="--d:200ms"><span class="blk-lv__n">03</span><h3>Viço</h3><p>Pele com aspecto descansado, para quem quer resultado sem parar a rotina.</p></li>
+    </ol>
+  </div>
+</section>
+<style>
+.blk-lv{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 8%,var(--bg))}
+.blk-lv__grade{display:grid;gap:var(--sp-5)}
+.blk-lv__eyebrow{display:flex;align-items:center;gap:.5rem;margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-lv__eyebrow svg{width:1.3rem;height:1.3rem}
+.blk-lv__titulo{margin:0;font-family:var(--f-display);font-size:clamp(2.8rem,11vw,5.5rem);line-height:.95;color:var(--ink)}
+.blk-lv__lead{margin:var(--sp-3) 0 0;max-width:34rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-lv__nota{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-style:italic;font-size:1.2rem;color:var(--brand)}
+.blk-lv__cartoes{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-lv__cartoes li{position:relative;overflow:hidden;background:var(--bg);border-radius:var(--radius);padding:var(--sp-4) var(--sp-4) var(--sp-5);box-shadow:0 1px 0 color-mix(in srgb,var(--ink) 8%,transparent),0 22px 44px -30px color-mix(in srgb,var(--brand) 70%,transparent)}
+.blk-lv__n{font-family:var(--f-display);font-size:.95rem;letter-spacing:.12em;color:var(--pulse);font-weight:600}
+.blk-lv__cartoes h3{margin:.3rem 0 .4rem;font-family:var(--f-display);font-size:2rem;line-height:1.05;color:var(--ink)}
+.blk-lv__cartoes p{margin:0;max-width:26rem;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-lv__motivo{position:absolute;right:-1rem;bottom:-1rem;width:9rem;opacity:.35;pointer-events:none}
+@media (min-width:900px){.blk-lv__grade{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:center;gap:4rem}}
+</style>

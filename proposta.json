@@ -1,0 +1,375 @@
+{
+  "slug": "dermo-beauty",
+  "negocio": {
+    "nome": "Dermo Beauty Estética",
+    "whatsapp": "5562993030434",
+    "telefone": "(62) 99303-0434",
+    "funcionamento": {
+      "seg": "08:00-19:00",
+      "ter": "08:00-19:00",
+      "qua": "08:00-19:00",
+      "qui": "08:00-19:00",
+      "sex": "08:00-19:00",
+      "sab": "08:00-16:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Setor Oeste · Goiânia",
+        "endereco": "Rua R-17, 176, Qd. R-15 – Setor Oeste, Goiânia – GO, 74125-170",
+        "telefone": "(62) 99303-0434",
+        "horario": "Segunda a sexta, das 8h às 19h · sábado, das 8h às 16h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6B1F3D",
+    "brand2": "#4A1229",
+    "ink": "#22233F",
+    "bg": "#FBF7F6",
+    "pulse": "#C2417A",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Lavieen Day",
+            "href": "#lavieen"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética avançada · Setor Oeste, Goiânia",
+        "h1": "Sua pele com hora marcada",
+        "lead": "Limpeza de pele, peelings, laser Lavieen, tratamentos corporais, drenagem e mãos e pés na Rua R-17, Setor Oeste. Cada cliente tem o seu horário, sem sala de espera cheia.",
+        "cta": "Marcar horário pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada da Dermo Beauty Estética, com o logo das borboletas e rampa de acesso",
+        "tarja": [
+          "Nota 5,0 em 117 avaliações",
+          "Só com hora marcada",
+          "Facial, corporal, mãos e pés",
+          "Aberto aos sábados até 16h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Limpeza de pele",
+          "Peelings",
+          "Laser Lavieen",
+          "Clareamento de manchas",
+          "Drenagem linfática",
+          "Massagem modeladora",
+          "Fotodepilação",
+          "Design de sobrancelhas",
+          "Spa dos pés"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "A casa",
+        "citacao": "Hora marcada, sala pronta e tempo para explicar cada passo.",
+        "autor": "Dermo Beauty Estética",
+        "texto": [
+          "A Dermo Beauty atende no Setor Oeste com agenda fechada: cada cliente tem o seu horário, e a sala já está preparada quando ela chega.",
+          "Antes do procedimento, a profissional explica com calma o que vai ser feito. É o que mais aparece nas avaliações: o atendimento vem antes de qualquer aparelho."
+        ],
+        "imagem": "midia/bancada.jpg",
+        "imagemAlt": "Bancada de atendimento da Dermo Beauty com prateleiras de dermocosméticos iluminadas"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Três frentes, as mesmas da vitrine da clínica. A avaliação diz por onde começar.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele e acne",
+            "icone": "pele",
+            "descricao": "Limpeza profunda para pele oleosa, cravos e acne, com o cuidado de não sensibilizar a pele.",
+            "imagem": "midia/sala-maca.jpg"
+          },
+          {
+            "nome": "Peelings e clareamento de manchas",
+            "icone": "gota",
+            "descricao": "Para manchas, textura irregular e tom apagado. O tipo de peeling é escolhido pela sua pele, não por pacote."
+          },
+          {
+            "nome": "Dermaroller e rejuvenescimento",
+            "icone": "rosto",
+            "descricao": "Microagulhamento e protocolos de rejuvenescimento para linhas finas, cicatrizes de acne e firmeza."
+          },
+          {
+            "nome": "Harmonização facial",
+            "icone": "seringa",
+            "descricao": "Procedimentos de harmonização do rosto, com avaliação antes e acompanhamento depois."
+          },
+          {
+            "nome": "Sobrancelhas e cílios",
+            "icone": "olho",
+            "descricao": "Design de sobrancelhas e extensão de cílios, para acordar pronta."
+          },
+          {
+            "nome": "Tratamentos corporais",
+            "icone": "spa",
+            "descricao": "Celulite, flacidez, estrias e gordura localizada, com os aparelhos da sala corporal.",
+            "imagem": "midia/sala-aparelhos.jpg"
+          },
+          {
+            "nome": "Drenagem linfática e modeladora",
+            "icone": "mao",
+            "descricao": "Massagem para inchaço, retenção de líquido e contorno, sozinha ou junto com o tratamento corporal."
+          },
+          {
+            "nome": "Fotodepilação",
+            "icone": "laser",
+            "descricao": "Depilação com luz, em sessões marcadas com intervalo certo entre uma e outra."
+          },
+          {
+            "nome": "Mãos e pés",
+            "icone": "unha",
+            "descricao": "Manicure e pedicure, unha de fibra, banho de gel, encapsulada, spa e peeling dos pés."
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/lavieen.html"
+    },
+    {
+      "id": "galeria",
+      "data": {
+        "titulo": "Por dentro da clínica",
+        "lead": "Salas separadas para rosto, corpo e unhas, cada uma com o seu equipamento.",
+        "itens": [
+          {
+            "imagem": "midia/sala-ripado.jpg",
+            "legenda": "Sala de atendimento facial"
+          },
+          {
+            "imagem": "midia/sala-maca.jpg",
+            "legenda": "Maca preparada para limpeza de pele"
+          },
+          {
+            "imagem": "midia/sala-cabine.jpg",
+            "legenda": "Cabine com aparelhos"
+          },
+          {
+            "imagem": "midia/sala-aparelhos.jpg",
+            "legenda": "Sala corporal"
+          },
+          {
+            "imagem": "midia/bancada.jpg",
+            "legenda": "Bancada de dermocosméticos"
+          }
+        ]
+      },
+      "variant": "faixa"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A Dermo Beauty no Google",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota das clientes"
+          },
+          {
+            "valor": "117",
+            "rotulo": "avaliações publicadas",
+            "contar": 117
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias de atendimento por semana",
+            "contar": 6
+          },
+          {
+            "valor": "3",
+            "rotulo": "frentes: rosto, corpo, mãos e pés",
+            "contar": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar leva uma conversa",
+        "lead": "A agenda é só com hora marcada, então tudo começa no WhatsApp. A recepção responde com o horário livre e lembra você do retorno.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Dermo Beauty Estética",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Vai ter Lavieen Day esse mês?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi, tudo bem? Vai sim! Quer que eu já reserve a sua vaga?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Quero. Só consigo depois das 17h"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tenho às 17h30. Reservei aqui, e te mando um lembrete na véspera"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do primeiro contato ao retorno.",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "icone": "conversa",
+            "texto": "Conte o que quer tratar. A recepção indica o horário livre, de segunda a sábado."
+          },
+          {
+            "titulo": "Avaliação",
+            "icone": "rosto",
+            "texto": "A profissional olha a pele ou a região, explica as opções e o que esperar de cada uma."
+          },
+          {
+            "titulo": "Sessão marcada",
+            "icone": "agenda",
+            "texto": "Atendimento só com hora marcada: a sala está pronta quando você chega."
+          },
+          {
+            "titulo": "Retorno",
+            "icone": "check",
+            "texto": "Os tratamentos em sessões seguem um intervalo. O próximo horário já sai combinado."
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem passou por aqui",
+        "itens": [
+          {
+            "texto": "Explica as coisas com calma, eu amei meu atendimento. Voltarei na próxima vez e indico para todas.",
+            "autor": "I. T.",
+            "contexto": "Google, 5 estrelas"
+          },
+          {
+            "texto": "Ana sempre muito simpática e de uma experiência na área como poucos. Indico de olhos fechados!",
+            "autor": "Angelica T.",
+            "contexto": "Google, 5 estrelas"
+          },
+          {
+            "texto": "A clínica é bem completa, oferece uma gama de serviços na área da estética. Pretendo voltar para fazer mais procedimentos.",
+            "autor": "Thaysa R.",
+            "contexto": "Google, 5 estrelas"
+          },
+          {
+            "texto": "A profissional fez exatamente como pedi. Super indico!",
+            "autor": "Miriam G.",
+            "contexto": "Google, 5 estrelas"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/avaliacoes.html"
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Preciso agendar antes?",
+            "r": "Sim. A clínica atende só com hora marcada. Chame no WhatsApp (62) 99303-0434 e a recepção indica o horário livre."
+          },
+          {
+            "p": "Qual o horário?",
+            "r": "Segunda a sexta, das 8h às 19h, e sábado, das 8h às 16h. Domingo fechado."
+          },
+          {
+            "p": "Quantas sessões vou precisar?",
+            "r": "Depende do tratamento e da sua pele. Isso é combinado na avaliação, antes de começar."
+          },
+          {
+            "p": "O que é o Lavieen Day?",
+            "r": "Um dia da agenda reservado só para o laser Lavieen. A data é anunciada no Instagram @dermo_beauty e a vaga é reservada pelo WhatsApp."
+          },
+          {
+            "p": "A clínica tem acessibilidade?",
+            "r": "Sim. A entrada tem acesso para cadeira de rodas."
+          },
+          {
+            "p": "Vocês fazem unhas também?",
+            "r": "Fazem. Manicure, pedicure, unha de fibra, banho de gel, encapsulada, spa e peeling dos pés."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Rua R-17, no Setor Oeste",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Escolha o seu horário",
+        "lead": "Chame a Dermo Beauty no WhatsApp e marque a avaliação, de segunda a sábado.",
+        "cta": "Falar com a Dermo Beauty"
+      }
+    },
+    {
+      "id": "footer"
+    }
+  ]
+}
